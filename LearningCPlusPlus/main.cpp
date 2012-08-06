@@ -7,12 +7,14 @@
 //
 
 #include <iostream>
-
+#include "Box.h"
 int main(int argc, const char * argv[])
 {
 
+    Box b = *new Box(4,3);
+    
     // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << b.getArea();
     return 0;
 }
 

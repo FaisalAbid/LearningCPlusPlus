@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5A17EDF115CF414800EFB9CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A17EDF015CF414800EFB9CC /* main.cpp */; };
 		5A17EDF315CF414800EFB9CC /* LearningCPlusPlus.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A17EDF215CF414800EFB9CC /* LearningCPlusPlus.1 */; };
+		5A17EDFB15CF4A9E00EFB9CC /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A17EDFA15CF4A9E00EFB9CC /* Box.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		5A17EDEC15CF414800EFB9CC /* LearningCPlusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningCPlusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A17EDF015CF414800EFB9CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5A17EDF215CF414800EFB9CC /* LearningCPlusPlus.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LearningCPlusPlus.1; sourceTree = "<group>"; };
+		5A17EDF915CF425900EFB9CC /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		5A17EDFA15CF4A9E00EFB9CC /* Box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Box.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				5A17EDF015CF414800EFB9CC /* main.cpp */,
 				5A17EDF215CF414800EFB9CC /* LearningCPlusPlus.1 */,
+				5A17EDF915CF425900EFB9CC /* Box.h */,
+				5A17EDFA15CF4A9E00EFB9CC /* Box.cpp */,
 			);
 			path = LearningCPlusPlus;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A17EDF115CF414800EFB9CC /* main.cpp in Sources */,
+				5A17EDFB15CF4A9E00EFB9CC /* Box.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
